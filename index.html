@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <header class="w-7xl mx-auto bg-white px-10 py-2 grid grid-cols-[130px_240px_3fr_1fr] gap-5 items-center">
+
+    <div class="logo">
+      <img src="imagens/logo.png" class="w-30" alt="">
+    </div>
+
+
+    <div class="text-black flex content-end gap-2 border p-2 border-slate-300 rounded-md">
+      <span><i class="icon text-xs" data-feather="map-pin" width="16"></i></span>
+      <div class="text-xs">
+        <span>Enviar para</span>
+        <p>Rua francisca maria de jesus</p>
+      </div>
+    </div>
+
+    <div>
+      <input type="text" class="bg-slate-200 px-4 py-4 w-full rounded-md" placeholder="Pesquisar">
+    </div>
+
+
+    <div class="flex justify-end">
+      <ul class="text-black flex gap-4 font-semibold">
+        <li class="f">Item 1</li>
+        <li class="">Item 2</li>
+      </ul>
+    </div>
+
+
+  </header>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.2/feather.min.js"
+    integrity="sha512-zMm7+ZQ8AZr1r3W8Z8lDATkH05QG5Gm2xc6MlsCdBz9l6oE8Y7IXByMgSm/rdRQrhuHt99HAYfMljBOEZ68q5A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>
